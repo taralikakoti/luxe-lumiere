@@ -1,0 +1,273 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background:linear-gradient(135deg, rgba(0,0,0,0.8), rgba(255,255,255,0.2));
+    background-size: 400% 400%;
+    animation: gradientAnimation 15s ease infinite;
+}
+
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff6347;
+    font-size: 1.2em;
+    text-shadow: 0 0 10px #ff6347;
+    transform: scale(1.1);
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+    color: #fff;
+}
+
+.banner-image {
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero p {
+    font-size: 1.5em;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero button {
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.brand-section {
+    text-align: center;
+    padding: 50px 20px;
+    position: relative;
+}
+
+.brand-background {
+    background: url(https://i.pinimg.com/originals/4a/a9/57/4aa9575d439b7c62aaa87eefc8507aeb.jpg) no-repeat center center/cover;
+    padding: 50px;
+    display: inline-block;
+}
+
+.brand-logo {
+    width: 150px;
+    height: auto;
+}
+
+.brand-name {
+    font-size: 4em;
+    margin: 20px 0;
+    transition: all 0.3s ease;
+}
+
+.brand-name:hover {
+    color: #ff6347;
+    text-shadow: 0 0 10px #ff6347;
+    transform: scale(1.1);
+}
+
+.exclusive-discounts-heading {
+    font-size: 2.5em;
+    margin-top: 20px;
+    color: #333;
+}
+
+.categories {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+}
+
+.category {
+    width: 30%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.category h2 {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: #fff;
+    font-size: 2em;
+    margin: 0;
+}
+
+.category.men {
+    background-image: url(https://www.nimble-made.com/cdn/shop/articles/old-money-aesthetic-men.jpg?v=1695697721);
+}
+
+.category.women {
+    background-image: url(https://wallpapers.com/images/hd/black-and-white-fashion-2080-x-3241-wallpaper-hlgtqvpzw2psb2nz.jpg);
+}
+
+.category.kids {
+    background-image: url(https://i.pinimg.com/236x/76/e8/6c/76e86c0f5f64147c0acf2042fd70aac9.jpg);
+}
+
+.category:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px #ff6347;
+}
+
+.discounts {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+}
+
+.discount-banner {
+    width: 45%;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.discount-banner img {
+    width: 100%;
+    height: auto;
+}
+
+.discount-banner h2 {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: #fff;
+    font-size: 2em;
+    margin: 0;
+}
+
+.discount-banner:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px #ff6347;
+}
+
+.products {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.products h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.product {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+
+.product img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+    color: #fff;
+  add-to-cart {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.cart {
+    position: relative;
+}
+
+.cart .dropdown {
+    display: none;
+    position: absolute;
+    background-color: blue; /* Changed to blue */
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    animation: fadeIn 0.5s;
+}
+
+.cart:hover .dropdown {
+    display: block;
+}
+
+.cart-items {
+    list-style-type: none;
+    padding: 10px;
+  margin: 0;
+    color: black; /* Changed to black */
+}
+
+.total-price {
+    padding: 10px;
+    color: black; /* Changed to black */
+}
+
+.checkout {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+.checkout:hover {
+    background-color: #45a049;
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}

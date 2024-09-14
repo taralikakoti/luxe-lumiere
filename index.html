@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothing Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar with Hover Effect and Icons</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .navbar {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        .navbar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-size: 17px;
+            transition: background-color 0.3s ease;
+        }
+
+        .navbar a:hover {
+            background-color: #575757;
+        }
+
+        .navbar a i {
+            margin-right: 8px;
+        }
+
+        /* Responsive design for mobile */
+        @media screen and (max-width: 600px) {
+            .navbar a {
+                float: none;
+                display: block;
+                text-align: left;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <a href="#"><i class="fa-solid fa-house></i>
+          <a>Home</a>
+          <a href="#"><i class="fa-solid fa-house"></i>About</a>
+          
+        <a href="#"><i class="fa-solid fa-magnifying-galss"></i>
+          <a>Search</a>
+        <a href="#"><i class="fa-solid fa-cart-shopping"></i>Cart</a>
+    </div>
+
+</body>
+</html>
+
+    <section class="hero">
+        <img src=https://images.squarespace-cdn.com/content/v1/5eedf14c18d8547f352582c9/1592667204221-T03EQ9NQ7X9FILGSN1NP/nowhere.fashion-website-2.gif?format=2500w <"banner-image">
+        <p>Discover the latest trends in fashion</p>
+    </section>
+    <section class="brand-section">
+        <div class="brand-background">
+            <h1 class="brand-name">Luxe & Lumière</h1>
+        </div>
+        <h2 class="exclusive-discounts-heading"> </h2>
+    </section>
+    <section class="categories">
+        <div class="category men">
+            <h2>Men</h2>
+        </div>
+        <div class="category women">
+            <h2>Women</h2>
+        </div>
+        <div class="category kids">
+            <h2>Kids</h2>
+        </div>
+    </section>
+    <section class="discounts">
+        <div class="discount-banner">
+            <img src=https://cdn.printnetwork.com/production/assets/5966561450122033bd4456f8/imageLocker/blog-description/blog/sales_banners.jpg alt="Discounted Sales">
+            <h2>Discounted Sales</h2>
+        </div>
+        <div class="discount-banner">
+            <img src=https://media.centrepointstores.com/i/centrepoint/SP_Offers_Block06MAR18.jpg alt="Exclusive Offers">
+            <h2>Exclusive Offers</h2>
+        </div>
+    </section>
+    <section class="products">
+        <h2>Featured Products</h2>
+        <div class="product">
+            <img src="https://i.pinimg.com/564x/39/9f/a4/399fa4ee6b48d782ab3d32af424b7a03.jpg" alt="Blue Linen Shirt Men">
+            <h3>Blue Linen Shirt Men</h3>
+            <p>₹1050</p>
+            <button onclick="addToCart('Blue Linen Shirt Men, 1050)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="https://i.pinimg.com/564x/ca/6f/e7/ca6fe7475dd59d9830db67dc9d71b56a.jpg" alt="Women Black V-Neck Blazer Dress">
+            <h3>Women Black V-Neck Blazer Dress</h3>
+            <p>₹1200</p>
+            <button onclick="addToCart('Women Black V-Neck Blazer Dress', 1200)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="https://i.pinimg.com/564x/a6/db/d2/a6dbd24598a4b0fbb7d35e737b156a49.jpg" alt="Black & White A-Line Dress">
+            <h3>Black & White A-Line Dress</h3>
+            <p>₹999</p>
+            <button onclick="addToCart('Black & White A-Line Dress', ₹999)">Add to Cart</button>
+        </div>
+      <div class="product">
+            <img src="https://i.pinimg.com/564x/38/64/dc/3864dcfbb7257fd52e5f0fd165f258d9.jpg" alt="Kid's Beige Co-ords">
+            <h3>Kid's Beige Co-ords</h3>
+            <p>₹800</p>
+            <button onclick="addToCart('Kid's Beige Co-ords', 800)">Add to Cart</button>
+        </div>
+      <div class="product">
+            <img src="https://i.pinimg.com/564x/a2/85/1e/a2851ef334dd55d2a95954ffc0991352.jpg" alt="Men's Brown Color Trench">
+            <h3>Men's Brown Color Trench Coat</h3>
+            <p>₹1600</p>
+            <button onclick="addToCart('Men's Brown Color Trench Coat', 1600)">Add to Cart</button>
+        </div>
+      <div class="product">
+            <img src="https://i.pinimg.com/564x/a0/a8/f6/a0a8f64f9690766916c48eba847727dd.jpg" alt="Women White Satin Jumpsuit">
+            <h3>Women White Satin Jumpsuit</h3>
+            <p>₹1499</p>
+            <button onclick="addToCart('Women White Satin Jumpsuit', 1499)">Add to Cart</button>
+        </div>
+      <div class="product">
+            <img src="https://i.pinimg.com/564x/b2/bd/3f/b2bd3f20af9634e53c89f689eefb8956.jpg" alt="Beige Pinafore">
+            <h3>Beige Pinaforet</h3>
+            <p>₹700</p>
+            <button onclick="addToCart('Beige Pinafore', 700)">Add to Cart</button>
+        </div>
+      <div class="product">
+            <img src="https://i.pinimg.com/564x/7c/da/e8/7cdae8016d5430d9a90111b5fbbb8ad7.jpg" alt="White Semi Sheer Crochet Shirt">
+            <h3>White Semi Sheer Crochet Shirt</h3>
+            <p>₹600</p>
+            <button onclick="addToCart('Men's Polo Collar Short Sleeves Brown T-Shirt', 600)">Add to Cart</button>
+        </div>
+      <div class="product">
+            <img src="https://i.pinimg.com/564x/a9/26/b4/a926b48f736225e94e916b1da9e7f7f6.jpg" alt="Men's Polo Collar Short Sleeves Brown T-Shirt">
+            <h3>Men's Polo Collar Short Sleeves Brown T-Shirt</h3>
+            <p>₹800</p>
+            <button onclick="addToCart('Men's Polo Collar Short Sleeves Brown T-Shirt', 800)">Add to Cart</button>
+        </div>
+      <div class="product">
+            <img src="https://i.pinimg.com/564x/31/1d/26/311d260153aeb98c937091539e654d55.jpg" alt="Blue Colour V-Neck Dress">
+            <h3>Blue Colour V-Neck Dress</h3>
+            <p>₹799</p>
+            <button onclick="addToCart('Blue Colour V-Neck Dress', 799)">Add to Cart</button>
+        </div>
+      <div class="product">
+            <img src="https://i.pinimg.com/564x/26/cc/7f/26cc7f2d64efdab761a93c692347cee8.jpg" alt="Soft Pink Co-ord Set">
+            <h3>Soft Pink Co-ord Set</h3>
+            <p>₹500</p>
+            <button onclick="addToCart('Soft Pink Co-ord Set', 500)">Add to Cart</button>
+        </div>
+      <div class="product">
+            <img src="https://i.pinimg.com/564x/fe/5c/4a/fe5c4a990c47fef8bcd268436e47888a.jpg" alt="Green Hoodie">
+            <h3>Green Hoodie</h3>
+            <p>₹1000</p>
+            <button onclick="addToCart('Green Hoodie', 1000)">Add to Cart</button>
+        </div>
+      <div class="product">
+            <img src="https://i.pinimg.com/564x/47/f4/9a/47f49ae313885befc41bafd40fbf1c1b.jpg" alt="Linen Stripped Shirt">
+            <h3>Linen Stripped Shirt</h3>
+            <p>₹599</p>
+            <button onclick="addToCart('Linen Stripped Shirt', 599)">Add to Cart</button>
+        </div>
+      <div class="product">
+            <img src="https://i.pinimg.com/564x/26/67/bb/2667bbf93951368818e4a3331745b21d.jpg" alt="Green Maxi A-Line Dress">
+            <h3>Green Maxi A-Line Dress</h3>
+            <p>₹1099</p>
+            <button onclick="addToCart('Green Maxi A-Line Dress', 1099)">Add to Cart</button>
+        </div>
+      <div class="product">
+            <img src="https://i.pinimg.com/564x/4a/c1/a1/4ac1a100d40e70b7595a05f0d508ed57.jpg" alt="White Jumpsuit">
+            <h3>White Jumpsuit</h3>
+            <p>₹899</p>
+            <button onclick="addToCart('White Jumpsuit', 899)">Add to Cart</button>
+        </div>
+      <div class="product">
+            <img src="https://i.pinimg.com/564x/90/86/20/90862087f9b013f660a87094e78ee5db.jpg" alt="Beige Set of Two Co-ord">
+            <h3>Beige Set of Two Co-ord</h3>
+            <p>₹999</p>
+            <button onclick="addToCart('Beige Set of Two Co-ord', 999)">Add to Cart</button>
+        </div>
+     
+    </section>
+<div id="popup" class="popup">Added to cart!</div>
+  
+    <footer>
+        <p>© 2024 Clothing Store. All rights reserved.</p>
+    </footer>
+    
+    <script src="scripts.js"></script>
+</body>
+</html>
